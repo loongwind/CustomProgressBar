@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomProgressBar">
+        <!--进度-->
+        <attr name="progress" format="fraction"/>
+
+        <!--开始颜色-->
+        <attr name="startColor" format="color|reference"/>
+
+        <!--结束颜色-->
+        <attr name="endColor" format="color|reference"/>
+
+        <!--item的宽度-->
+        <attr name="itemWidth" format="dimension|reference"/>
+
+        <!--是否整体渐变,false则渐变作用在当前进度-->
+        <attr name="isFullGradient" format="boolean"/>
+
+        <!--是否固定进度item宽度,true则不会去平均整体宽度-->
+        <attr name="isFixationItemWidth" format="boolean"/>
+
+        <!--item 的Drawable-->
+        <attr name="itemDrawable" format="reference"/>
+
+        <!--是否使用渐变-->
+        <attr name="isGradient" format="boolean"/>
+
+        <!--item个数-->
+        <attr name="itemCount" format="integer"/>
+    </declare-styleable>
+</resources>
